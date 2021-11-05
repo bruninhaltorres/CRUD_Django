@@ -13,7 +13,6 @@ class MusicViewSet(generics.RetrieveUpdateDestroyAPIView):
     queryset = Music.objects.all()
     serializer_class = MusicSerializer
 
-
 class ArtistaPost(generics.ListCreateAPIView):
     queryset = Artista.objects.all()
     serializer_class = ArtistaSerializer
