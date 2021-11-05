@@ -29,7 +29,7 @@ Foi utilizado Python e Django REST.
 
 ### Utilizando o site:
 
-* Sendo sua primeira vez no site, você terá que fazer o login com o super usuário criado no passo 6 para que tenha acesso as ações do CRUD. Acesse: http://localhost:8000/admin. 
+* Sendo sua primeira vez no site, você terá que fazer o login com o super usuário, criado no passo 6, para que tenha acesso as ações do CRUD. Acesse: http://localhost:8000/admin. 
 * Em seguida, faça a sua primeira adição.  
 *É recomendável que se inicie adicionando um Artista, por causa das especificações já citadas.*
 * Artista: Adicionar e Listar: (http://localhost:8000/Artista)  
