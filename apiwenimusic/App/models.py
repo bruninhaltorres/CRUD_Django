@@ -7,13 +7,6 @@ class Artista(models.Model):
     def __str__(self):
         return self.name
 
-# Remover a musica da playlist e adicionar
-
-# PRODUCT_STATUS = [
-#     ("1", "Sim"),
-#     ("2", "Não")
-# ]
-
 class Music(models.Model):
     nameMusic = models.CharField(max_length=100, blank=False, null=False)
     artista = models.ForeignKey(Artista, null=True, on_delete=models.CASCADE, related_name = 'artista')
@@ -23,8 +16,7 @@ class Music(models.Model):
 
 class Playlist(models.Model):
     namePlaylist = models.CharField(max_length=100, blank=False, null=False, unique=True)
-    musicas = models.ForeignKey(Music, null=True, on_delete=models.CASCADE, related_name = 'musicas')
-    # status = models.CharField(max_length=1, choices=PRODUCT_STATUS, default="")
+    musicas = models.ManyToManyField(Music, blank=True)
 
     def __str__(self):
         return self.namePlaylist
