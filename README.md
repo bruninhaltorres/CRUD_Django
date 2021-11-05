@@ -33,7 +33,3 @@ Foi utilizado Python e Django REST.
 Ex: localhost:8000/Artista/2  
 Vai atualizar ou deletar o Artista com id igual a 2.
 
-### Mais especificações:
-
-[Clique aqui](https://github.com/bruninhaltorres/CRUD_Django/blob/main/Especifica%C3%A7%C3%B5es/estagio_weni_tech-desafio_back-end.pdf) para ver mais sobre o projeto.
-
