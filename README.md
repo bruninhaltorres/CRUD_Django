@@ -1,7 +1,4 @@
 # API Django
-Desafio Back-End - WeniTech
-
-Esse repositório foi criado no intuito de compartilhar o projeto desenvolvido, por mim, para o processo seletivo da WeniTech.
 Foi utilizado Python e o framework web Django.
 
 ### Pré requisitos:
